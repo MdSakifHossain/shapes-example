@@ -1,0 +1,222 @@
+@import url('http://fonts.cdnfonts.com/css/cubano');
+/*
+	font-family: 'Cubano', sans-serif;
+	font-family: 'L', sans-serif;
+	font-family: 'O', sans-serif;
+	font-family: 'P', sans-serif;
+	font-family: 'R', sans-serif;
+	*/
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+/*
+	font-family: 'Prompt', sans-serif;
+*/
+:root {
+	--bg-color:#fff;
+	--navbar-bg-color:#0099ff;
+}
+
+
+* {
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family: 'Prompt', sans-serif;
+color:#FFF;
+}
+
+body {
+	background-color:var(--bg-color);
+}
+
+
+#navbar {
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	background:var(--navbar-bg-color);
+}
+
+#navbar img {
+	width:55px;
+	padding:5px 9px;
+}
+
+#navbar ul {
+	padding-right:4px;
+} 
+
+#navbar ul li {
+	display:inline;
+	
+}
+
+#navbar ul li a {
+	font-family: 'Cubano', sans-serif;
+	text-decoration:none;
+	padding:5px 12px;
+	border-radius:3px;
+	color:#fff;
+}
+
+#navbar ul li a:hover {
+	color:#0099ff;
+	background-color:#fff;
+}
+
+#navbar i {
+	color:#fff;
+	margin:auto 10px;
+	font-size:1.5em;
+}
+
+.contact {
+	background:#fff;
+	color:#0099ff;
+}
+
+#go {
+	position:relative;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	justify-content:center;
+	min-height:300px;
+	padding:50px 20vw;
+	text-align:center;
+}
+
+#home {
+	overflow:hidden;
+	font-family: 'Cubano', sans-serif;
+}
+
+#options {
+
+}
+
+#select-any {
+	width:100vw;
+	height:42vh;
+	display:flex;
+	justify-content:center;
+	flex-direction:column;
+	text-align:center;
+	padding:40px 0 0 0;
+}
+
+#select-any a {
+	border:#ecf0f1 2px solid;
+	border-radius:7px;
+	margin-top:15vw;
+	margin-left:30vw;
+	margin-right:30vw;
+	margin-bottom:10vw;
+	
+}
+
+
+
+/* svg */
+#navbarNila2darkNila {
+	background:#3c31dd;
+	margin:-7px 0;
+}
+
+#darkNila2tila {
+	background:#1abc9c;
+	margin:-3px 0;
+}
+
+#tila2pila {
+	background:#f1c40f;
+	margin:-3px 0;
+}
+
+#pila2nilaLight {
+	background:#0099ff;
+	margin:-3px 0;
+}
+
+#lightNila2sabja {
+	background:#0099ff;
+	margin:-7px 0;
+}
+
+#sabja2bs-theme {
+	background:#8e44ad;
+}
+
+#bs-theme2dark {
+	background:#2c3e50;
+	margin:-3px 0;
+}
+
+#dark2pila-kamla {
+	background:#f39c12;
+	margin:-3px 0;
+}
+
+#pila-kamla2redua {
+	background:#e74c3c;
+	margin:-3px 0;
+}
+
+#redua2gerua {
+	background:#2c2c54;
+	margin:-3px 0;
+}
+
+
+
+
+
+
+/* color palets */
+.nilaDark {
+	background:#3c31dd;
+}
+
+.nilaLight {
+	background:#0099ff;
+}
+
+.tila {
+	background:#1abc9c;
+}
+
+.sabja {
+	background:#2ecc71;
+}
+
+.bs-theme {
+	background:#8e44ad;
+	margin:-3px 0;
+}
+
+.dark {
+	background:#2c3e50;
+}
+
+.pila {
+	background:#f1c40f;
+}
+
+.pila-kamla {
+	background:#e67e22;
+}
+
+.kamla {
+	background:#f39c12;
+}
+
+.redua {
+	background:#e74c3c;
+}
+
+.safedi {
+	background:#ecf0f1;
+}
+
+.gerua {
+	background:#2c2c54;
+}
